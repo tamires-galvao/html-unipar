@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Musical</title>
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Roboto:400,700,900" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/eventos.js"></script>
+</head>
+<body>
+	<div class="pagina">
+		<!--Cabeçalho -->
+		<header>
+			<nav class="menu">
+				<ul>
+					<li class="ativo">
+						<a href="index.html" class="btn-menu">Home</a>
+
+					</li>
+
+					<li>
+						<a href="empresa.html" class="btn-menu">Empresa</a>
+					</li>
+
+					<li>
+						<a href="produtos.html" class="btn-menu">Produtos</a>
+
+					</li>
+
+					<li>
+						<a href="fale-conosco.html" class="btn-menu">Fale conosco</a>
+
+					</li>
+
+				</ul>
+			</nav>
+
+			<h1 class="logo">
+				<!--alt="" mostra o que ta escrito caso nao encontre a imagem no site-->
+				<img src="imgs/logo.png" title="Logo Musical" alt="logo">
+			</h1>
+		</header>
+
+		<div class="depto-fale-conosco">
+			<div class="banner">
+			<img src="imgs/banner-1.jpg" title="Banner 1">				
+
+			</div>
+
+			<div class="fale-conosco"> <!--Auterei-->
+				<div class="titulo">
+					<h1>Fale Conosco</h1>					
+				</div>
+
+				<div class="conteudo">
+					<form action="Fale-conosco-enviar.php" method="POST">
+						<div class="grupo">
+							<label for="nome">Nome</label>
+							<input type="text" name="nome" id="nome" class="campo" value="" placeholder="Digite seu nome completo">
+							
+						</div>
+						<div class="grupo">
+							<label for="email">E-mail</label>
+							<input type="email" name="email" id="email" class="campo" value="">	
+
+						</div>
+						<div class="grupo">
+							<label for="telefone">Telefone</label>
+							<input type="text" name="telefone" id="telefone" class="campo" value="">	
+
+						</div>
+						<div class="grupo cidade">
+							<label for="cidade">Cidade</label>
+							<input type="text" name="cidade" id="cidade" class="campo" value="">
+						</div>
+					
+					<div class="grupo uf">
+							<label for="uf">UF</label>
+							<input type="text" name="uf" id="uf" class="campo" value="">	
+
+						</div>
+						<div class="grupo">
+							<label for="assunto">Assunto</label>
+							<input type="text" name="assunto" id="assunto" class="campo" value="">	
+
+						</div>
+						<div class="grupo">
+							<label for="mensagem">Mensagem</label>
+							<textarea name="mensagem" id="mensagem" class="campo" rows="5"></textarea> 
+
+
+						</div>
+						<div class="grupo">
+							<button type="submit" class="btn btn-enviar">Enviar</button>
+							<button type="reset" class="btn">Apagar</button>
+
+						</div>
+
+
+					</form>
+					
+
+					</div>
+					</div>
+														
+					</div>
+
+				</div>
+
+				<div class="container-botoes">
+					<a href="" class="btn-ver-produtos">Ver todos produtos</a>
+					
+				</div>
+
+			</div>
+			
+		</div> <!--Fim do depto.fale-conosco-->
+
+		<!--Rodapé-->
+		<footer>
+			<div class="bloco esquerdo">
+				<!-- com o espaço voce cria duas classes-->
+				<p>
+					2018 Unipar - Todos os direitos reservados
+				 </p>				
+			</div>
+
+				<div class="bloco direito">
+					<p>
+						Desenvolvido por <a href="http://google.com.br" target="_blank">Tamires Moreno</a>
+					</p>
+				</div>
+
+		</footer>
+
+	</div>
+
+</body>
+
+</html>

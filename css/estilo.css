@@ -1,0 +1,266 @@
+ body { 
+	background-image: url('../imgs/fundo.jpg');
+	/*../ indica que voce vai sair da pasta para pegar a imagem*/
+}
+  .clear {
+  	clear: both;
+  }
+
+ .pagina {
+ 	width: 1140px;
+ 	margin: 0 auto;
+ 	
+ }
+  header {
+  	background-color: #FFF;
+  }
+  /*elemento para acessar o menu que esta exclusivamente dentro de header, outros menus n serao modificados*/
+  header .menu {
+  	float: left; 
+  	width: 100%;
+  	background-color: #FFF;
+  	position: relative; 
+  }
+  header .menu ul li {
+  	float: left;
+  }
+  header .menu ul li .btn-menu {
+  		display: block;
+  		color: #6f6f6f;
+  		text-transform: uppercase;
+  		padding: 20px 15px;
+  		font-weight: bold;
+  		text-decoration: none;
+  		font-size: 15px;	
+  		font-weight: bold;
+  		font-family: 'Roboto'; 
+  		-webkit-transition: all 300ms ease;
+		-moz-transition: all 300ms ease;
+		-ms-transition: all 300ms ease;
+		-o-transition: all 300ms ease;
+		transition: all 300ms ease;
+   	  }
+   	  header .menu ul li .btn-menu:hover,
+   	  header .menu ul li.ativo .btn-menu{
+   	  	color: #FFF;
+   	  	background: #cc2424;
+   	  }
+
+  	  header .logo{
+  	  	clear: both;
+  	  	text-align: center;
+  	  	padding: 48px 0; 
+
+  	  }
+  	  header .logo img {
+  	  	display: inline-block;
+  	  }
+  	 .banner img {
+  	  	width: 100%;
+  	  }
+  	  .titulo h1 {
+  	  	font-size: 26px;
+  	  	text-align: center;
+  	  	text-transform: uppercase;
+  	  	color: #565656;
+  	  	padding:20px 0 30px 0; 
+  	  	font-family: 'Roboto';
+  	  }
+
+
+  	  .depto-home .ultimos-produtos {
+  	  	padding: 60px 15px;
+  	  	background-color: #FFF;
+  	  }
+  	  
+  	.depto-home .ultimos-produtos .lista{
+  		display: inline-block;
+  	}
+  	  
+  	  .depto-home .ultimos-produtos .item {
+  	  	width: 340px;
+  	  	float: left;
+  	  	margin: 0 15px 40px 15px;  
+  	  }
+
+  	  .depto-home .ultimos-produtos .item .img {
+  	  	-webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+		box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+		border: 5px solid #FFF;
+  	  	border-radius: 10px;
+
+
+  	  } .depto-home .ultimos-produtos .item img {
+  	  	max-width: 100%;
+  	  	border-radius: 5px;
+  	  	/*max só diminui se for maior, se for menor n faz a conversão*/
+  	  }
+  	  .depto-home .ultimos-produtos .item h2 {
+  	  	color: #1069cb;
+  	  	font-size: 22px;
+  	  	margin: 10px 0;
+  	    font-family:'Roboto';	
+  	  }
+  	  	.depto-home .ultimos-produtos .item p {
+  	  		color: #333;
+  	  		font-size: 14px;
+  	  		font-family: 'Roboto';
+  	  	}
+  	  	.depto-home .ultimos-produtos .container-botoes {
+  	  		margin-top: 30px;
+  	  		text-align: center;
+  	  		clear: both;
+
+
+  	  	}
+
+  	  	.depto-home .ultimos-produtos .btn-ver-produtos {
+  	  		font-size: 15px;
+  	  		color: #FFF;
+  	  		font-size:'Roboto';
+  	  		background-color: #d41010;
+  	  		font-weight: 700;
+  	  		padding: 12px 20px 10px 20px;
+  	  		text-decoration: none;
+  	  		border-radius: 5px;
+  	  	}
+  	     .depto-home .ultimos-produtos .btn-ver-produtos:hover {
+  		background-color: #1069cb;
+  		  	  		
+  	  	}
+  	  	.depto-home .frase-de-efeito {
+  	  		text-align: center;
+  	  		padding: 120px 0;
+  	  	}
+
+
+  	  	
+  	  	.depto-home .frase-de-efeito h2 {
+  	  		color: #FFF;
+  	  		font-size: 80px;
+  	  		font-family:'Dancing Script'; 
+  	  	}
+  	  	/* EMPRESA*/
+  	  	.depto-empresa .empresa {
+  	  		padding: 60px 15px;
+  	  		background-color:#FFF;  
+  	  	}
+  	  	.depto-empresa .empresa .conteudo{
+  	  		padding: 0 100px;
+  	  	}
+  	  	.depto-empresa .empresa .conteudo img{
+  	  		width: 100%;
+  	  		margin-bottom: 30px;
+  	  	}
+  	  	.depto-empresa .conteudo p{
+  	  		color: #333;
+  	  		margin-bottom: 15px;
+  	  		font-family: 'Roboto';
+  	  		font-size: 16px;
+  	  		line-height: 1.8em;
+  	  		text-align: justify; 
+  	  	}
+  	  	/*Fale conosco*/
+  	  	.depto-fale-conosco .fale-conosco {
+  	  		padding: 60px 15px;
+  	  		background-color:#FFF;
+  	  	} 
+  	  	.depto-fale-conosco .fale-conosco .conteudo{
+  	  		width: 600px;
+  	  		margin: 0 auto;
+  	  	} 
+  	  	.depto-fale-conosco .fale-conosco .grupo {
+  	  		margin-bottom: 15px;
+  	  	}
+  	  	.depto-fale-conosco .fale-conosco .grupo.cidade{
+  	  		width: calc(60% - 15px);
+  	  		float: left;
+  	  		margin-right: 15px;
+  	  	}
+  	  	.depto-fale-conosco .fale-conosco .grupo.uf{
+  	  		width: 40%;
+  	  		float: left;
+
+
+
+  	  	}
+
+  	  	.depto-fale-conosco .fale-conosco .campo {
+  	  		display: block;
+  	  		width: 100%;
+  	  		padding: 10px;
+  	  		color: #333;
+  	  		border: 1px solid #ccc;
+  	  		font-size:16px;
+  	  		border-radius: 5px;
+  	  		box-sizing: border-box;
+
+  	  	}
+  	  	.depto-fale-conosco .fale-conosco label {
+  	  		display: inline-block;
+  	  		color:#333; 
+  	  		font-size:16px;
+  	  		font-family: "Roboto";
+  	  		margin-bottom:5px;
+  	  	}
+  	  	.depto-fale-conosco .fale-conosco .btn {
+  	  		font-size: 15px;
+  	  		font-family: "Roboto";
+  	  		font-weight: 400;
+  	  		color: #FFF;
+  	  		background-color: #d41010;
+  	  		border: none;
+  	  		border-radius: 5px;
+  	  		padding: 10px 25px;
+
+  	  	}
+  	  	.depto-fale-conosco .fale-conosco .btn-enviar{
+  	  		background-color: #1069cb;
+  	  		margin-right: 10px;
+
+  	  	}
+  	  	/*Paginação*/
+  	  	.paginacao-container{
+  	  		width: 100%
+  	  	}
+  	  	.paginacao {
+  	  		float: right;
+  	  		margin-top: 10px;
+
+  	  	}
+  	  	.paginacao a{
+  	  		display: inline-block;
+  	  		color: #333;
+  	  		text-decoration: none;
+  	  		font-size: 16px;
+  	  		font-family: 'Roboto';
+  	  		padding: 10px;
+  	  		font-weight: bold;
+  	  		border-radius: 5px;
+  	  	}
+  	  	.paginacao a.ativo {
+  	  		background-color: #cc2424;
+  	  		color: #FFF
+  	  	}
+
+
+  	  	footer {
+  	  		width: 100%;
+  	  		padding: 40px 0;
+  	  		border-top: 2px solid #FFF; 
+  	  	}
+  	  	footer .bloco {
+  	  		width: 50%;
+  	  		float: left;
+  	  	}
+  	  	footer .bloco.direito {
+  	  		text-align: right;
+  	  	}
+  	  	footer p{
+  	  		color: #FFF;
+  	  		text-decoration: none;
+  	  	}  	
+		footer a{
+  	  		color: #FFF;
+  	  		text-decoration: none;
+  	  	}  	
